@@ -1,0 +1,22 @@
+{
+  "name": "infrun_tdd_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bjh970913/infrun_tdd_node.git",
+  "author": "백지훈 <bjh@sdst.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha index.spec.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mime": "^2.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
