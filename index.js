@@ -65,8 +65,6 @@ app.post('/users', (req, res) => {
         name: body.name
     };
 
-    console.log(newUser);
-
     users.push(newUser);
 
     res.status(201)
