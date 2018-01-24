@@ -1,6 +1,5 @@
 const utils = require('./utils');
-// const assert = require('assert');
-// const should = require('should');
+require('should');
 
 describe('utils', () => {
     it('replace first char to uppercase', () => {
